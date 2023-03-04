@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+#navbar {
+  height: 10rem;
+  background: #fff;
+}
+#navbar p {
+  color: aqua;
+}
+
+.logo {
+  font-size: 20px;
+  color: #ef4036;
+}
+.hero {
+  min-height: calc(100vh - 10rem);
+  background: #222;
+  color: #fff;
+}
+
+.hero span {
+  color: #ef4036;
+  font-size: 30px;
+}
+.hero h1 {
+  color: #203ab1;
+}
+.hero-btn {
+  background: #203ab1;
+  color: #fff;
+}
