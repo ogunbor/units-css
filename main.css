@@ -77,6 +77,10 @@ body {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
+.hero-text {
+  animation: slideFromTop 5s ease-in-out 1;
+}
+
 .hero-btn {
   background: transparent;
   border: 1px solid #fff;
@@ -84,9 +88,34 @@ body {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
+  animation: slideFromBottom 5s ease-in-out 1;
 }
 
 .temp {
   min-height: 100vh;
   background: red;
+}
+
+/* animations */
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideFromBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
